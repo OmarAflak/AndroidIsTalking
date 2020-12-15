@@ -1,4 +1,4 @@
-# Android is Talking
+# Android is Talking [![Download](https://api.bintray.com/packages/omaflak/maven/androidistalking/images/download.svg)](https://bintray.com/omaflak/maven/androidistalking/_latestVersion)
 
 Simple "is talking" sound wave animation.
 
