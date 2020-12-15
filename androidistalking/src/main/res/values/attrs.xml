@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AndroidIsTalking">
+        <attr name="barCount" format="integer" />
+        <attr name="barWidth" format="dimension" />
+        <attr name="barSpace" format="dimension" />
+        <attr name="barColor" format="color" />
+        <attr name="animationDuration" format="integer" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,21 @@
+package me.aflak.libraries
+
+import android.os.Bundle
+import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
+import me.aflak.androidistalking.AndroidIsTalking
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+        val isTalking = findViewById<AndroidIsTalking>(me.aflak.androidistalking.R.id.is_talking)
+        findViewById<Button>(me.aflak.androidistalking.R.id.start).setOnClickListener {
+            isTalking.start()
+        }
+        findViewById<Button>(me.aflak.androidistalking.R.id.stop).setOnClickListener {
+            isTalking.stop()
+        }
+        isTalking.start()
+    }
+}
