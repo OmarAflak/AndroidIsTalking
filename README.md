@@ -5,6 +5,12 @@ Simple "is talking" sound wave animation.
 ![random](https://github.com/OmarAflak/AndroidIsTalking/blob/master/gif/random.gif)
 ![sin](https://github.com/OmarAflak/AndroidIsTalking/blob/master/gif/sin.gif)
 
+## Install
+
+```
+implementation 'me.aflak.libraries:bluetooth:1.0.0'
+```
+
 ## Usage
 
 ```xml
