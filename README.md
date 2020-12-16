@@ -14,7 +14,7 @@ implementation 'me.aflak.libraries:androidistalking:1.2'
 ## Usage
 
 ```xml
-<me.aflak.libraries.AndroidIsTalking
+<me.aflak.androidistalking.AndroidIsTalking
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/is_talking"
     android:layout_width="wrap_content"
