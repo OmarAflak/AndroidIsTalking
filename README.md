@@ -8,7 +8,7 @@ Simple "is talking" sound wave animation.
 ## Install
 
 ```
-implementation 'me.aflak.libraries:bluetooth:1.0.0'
+implementation 'me.aflak.libraries:bluetooth:1.1'
 ```
 
 ## Usage
