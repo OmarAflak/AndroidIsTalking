@@ -7,9 +7,8 @@ object RandomStateProvider : StateProvider {
 
     override fun getStates(size: Int): List<List<Float>> {
         return List(STATE_COUNT) {
-            val states = mutableListOf<Float>()
-            for (i in 0 until size / 2) {
-                states.add(Random.nextFloat())
+            val states = MutableList(size / 2) {
+                Random.nextFloat()
             }
             val reversed = states.reversed()
             if (size % 2 != 0) {
