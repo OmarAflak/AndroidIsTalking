@@ -1,4 +1,4 @@
-package me.aflak.libraries
+package me.aflak.androidistalking
 
 import kotlin.math.PI
 import kotlin.math.sin

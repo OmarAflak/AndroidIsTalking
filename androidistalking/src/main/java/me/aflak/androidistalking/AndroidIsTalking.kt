@@ -12,8 +12,6 @@ import android.util.AttributeSet
 import android.view.View
 import android.view.animation.AccelerateInterpolator
 import androidx.core.animation.doOnEnd
-import me.aflak.libraries.SinStateProvider
-import me.aflak.libraries.StateProvider
 
 class AndroidIsTalking @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
