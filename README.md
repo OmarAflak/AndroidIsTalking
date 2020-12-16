@@ -55,7 +55,7 @@ object MyStateProvider : StateProvider {
 }
 ```
 
-Check out the implementation of [SinStateProvider.kt](https://github.com/OmarAflak/AndroidIsTalking/blob/master/androidistalking/src/main/java/me/aflak/libraries/SinStateProvider.kt) !
+Check out the implementation of [SinStateProvider.kt](https://github.com/OmarAflak/AndroidIsTalking/blob/master/androidistalking/src/main/java/me/aflak/androidistalking/SinStateProvider.kt) !
 
 Finally, use the provider:
 
