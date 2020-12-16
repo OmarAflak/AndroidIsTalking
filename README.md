@@ -8,7 +8,7 @@ Simple "is talking" sound wave animation.
 ## Install
 
 ```
-implementation 'me.aflak.libraries:bluetooth:1.1'
+implementation 'me.aflak.libraries:androidistalking:1.2'
 ```
 
 ## Usage

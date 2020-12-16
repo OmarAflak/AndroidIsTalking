@@ -8,15 +8,15 @@ ext {
     bintrayName = 'androidistalking'
 
     publishedGroupId = 'me.aflak.libraries'
-    libraryName = 'Bluetooth'
-    artifact = 'bluetooth'
+    libraryName = 'AndroidIsTalking'
+    artifact = 'androidistalking'
 
     libraryDescription = '"Is talking" animation.'
 
     siteUrl = 'https://github.com/omaraflak/AndroidIsTalking'
     gitUrl = 'https://github.com/omaraflak/AndroidIsTalking.git'
 
-    libraryVersion = '1.1'
+    libraryVersion = '1.2'
 
     developerId = 'omaflak'
     developerName = 'Omar Aflak'
@@ -34,8 +34,8 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 2
-        versionName "1.1"
+        versionCode 3
+        versionName "1.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
